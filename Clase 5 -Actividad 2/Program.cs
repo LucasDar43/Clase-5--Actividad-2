@@ -7,6 +7,24 @@ namespace actv2
         static void Main(string[] args)
         {
 
+            /*
+             2	Escriba un programa que defina un arreglo (una tabla) de 3x3, 
+                inicialice el arreglo de forma fija en el código (hardcoded) 
+                o través del teclado (elija lo que le parezca) y realice las siguientes operaciones:
+             2.1	Liste el contenido de la tabla con el siguiente formato (los valores son un ejemplo):
+		            3	5	1
+		            10	1	45
+		            2	4	4
+              2.2	Luego muestre los elementos del la diagonal principal 
+                    (en el ejemplo de arriba: 3, 1, 4) y los de la diagonal secundaria 
+                   (en el ejemplo: 1, 1, 2).
+               2.3	Pida el ingreso de un valor entero y búsquelo en el arreglo 
+                    mostrando la posición de la primer ocurrencia. Por ejemplo, 
+                    si se ingresa el 1 y el arreglo es el que esta arriba debería mostrar: 
+                    “Valor encontrado en posición 0,2”. 
+                    Si no se encuentra el valor mostrar: “Valor no encontrado en el arreglo”.
+             */
+
             int[,] Matriz = { { 1, 2, 3},
                               { 4, 5, 6},
                               { 7, 8, 9} };
